@@ -3,8 +3,7 @@
 Ceci est un algorithme de __remplissage des canaux de ventes__ amélioré qui se base sur la technique de clustering hiérarchique de ward CAH pour savoir quels produits sont les plus liés à un certain produit cible.  
 
 La démarche suivie consiste à déterminer pour chaque couple (client,produit) cible les produits __les plus proches__ de lui en appliquant la technique de __clustering hiérarchique de ward CAH__, ensuite de prendre ce groupe de produits et de réappliquer la même technique de clustering au sein de ce groupe pour déterminer les clients les plus proches du couple cible (client,produit).  
-
-On obtient ainsi pour ce couple, une __dataframe__ constitué de lignes de clients et de colonnes de produits __les plus proches__ du couple cible, et on prend ensuite la médiane des produits proches pour estimer la valeur des ventes pour ce couple de (client,produit). 
+On obtient ainsi pour ce couple, une __dataframe__ constitué de lignes de clients et de colonnes de produits __les plus proches__ du couple cible, et on prend ensuite la médiane des produits proches pour estimer la valeur des ventes pour ce couple de (client,produit). L'algorithme est expliqué aussi dans le pdf __ChannelFill Code Explanation.pdf__
 
 Le code est constitué de plusieurs étapes parmi lesquelles on peut trouver:  
 -Data préparation pour que les données soient dans le format attendu en effectuant des __opérations d'aggrégation__  
