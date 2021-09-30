@@ -1,4 +1,4 @@
-# Machine_Learning_CAH_Amelioration_Ventes
+# Remplissage-des-canaux-de-vente-par-clustering-CAH-Ward
 
 Ceci est un algorithme de __remplissage des canaux de ventes__ amélioré qui se base sur la technique de clustering hiérarchique de ward CAH pour savoir quels produits sont les plus liés à un certain produit cible.  
 
